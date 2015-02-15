@@ -5,8 +5,8 @@ TEXTDOMAIN=virtualhost
 ### Set default parameters
 action=$1
 domain=$2
-name=$3
-rootdir=$4
+rootdir=$3
+name=$4
 destiny=$5
 ip=$6
 owner=$(who am i | awk '{print $1}')
